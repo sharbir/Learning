@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /TimeConvert.py
     destination: /home/ec2-user/
