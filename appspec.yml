@@ -3,12 +3,3 @@ os: linux
 files:
   - source: /s3.py
     destination: /home/ec2-user/
-hooks:
-   BeforeInstall:
-    - location: /s3.py
-      runas: root
-    - location: /s3.py
-      runas: root
-   AfterInstall:
-    - location: /s3.py
-      runas: root
