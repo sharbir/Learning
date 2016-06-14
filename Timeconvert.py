@@ -1,3 +1,3 @@
 import datetime
 import time
-print "Current Time is: "+str(datetime.datetime.now())
+print "Current Time : "+str(datetime.datetime.now())
